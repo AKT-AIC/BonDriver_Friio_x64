@@ -1,0 +1,25 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build output
+bin/
+obj/
+x64/
+Debug/
+Release/
+
+# Logs
+*.log
+
+# Archives and temporary files
+*.zip
+*.7z
+*.rar
+*.base64
+*.sha256
+
+# Windows
+Thumbs.db
+Desktop.ini
