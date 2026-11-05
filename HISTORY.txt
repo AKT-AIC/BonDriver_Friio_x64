@@ -1,0 +1,26 @@
+﻿BonDriver_Friio_x64 HISTORY
+===========================
+
+Ver.1.01
+--------
+
+・白Friio終了時のLED状態を修正しました。
+  Ver.1.0ではBonDriver終了後も本体LEDが緑のままになる場合がありましたが、
+  終了後に赤へ戻るよう修正しました。
+
+・BonDriver_Friio 3.1 / 3.2の終了経路を再解析し、
+  終了用PRECONTROLを追加しました。
+
+・終了処理を
+  PRECONTROL → WinUsb_AbortPipe → WinUsb_Free → CloseHandle
+  の順で行うようにしました。
+
+・BonDriver_Friio_x64.iniに EnableWhiteEndSeq を追加しました。
+  初期値は1（有効）です。通常使用では変更する必要はありません。
+
+
+Ver.1.0
+-------
+
+・初回公開版。
+・White Friio（白Friio）用64bit BonDriverとして公開。
